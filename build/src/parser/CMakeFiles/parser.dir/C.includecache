@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/common/syntax_tree.h
+stdio.h
+-
+
+/home/whoops/compiler/lab2/src/parser/parser.c
+syntax_tree.h
+/home/whoops/compiler/lab2/src/parser/syntax_tree.h
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/common/logging.hpp
+iostream
+-
+sstream
+-
+cstdlib
+-
+
+/home/whoops/compiler/lab2/src/logging/test_logging.cpp
+logging.hpp
+/home/whoops/compiler/lab2/src/logging/logging.hpp
+

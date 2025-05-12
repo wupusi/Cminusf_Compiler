@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/common/ast.hpp
+syntax_tree.h
+../include/common/syntax_tree.h
+User.hpp
+../include/common/User.hpp
+memory
+-
+string
+-
+vector
+-
+
+../include/common/syntax_tree.h
+stdio.h
+-
+
+../include/lightir/User.hpp
+Value.hpp
+../include/lightir/Value.hpp
+vector
+-
+
+../include/lightir/Value.hpp
+functional
+-
+iostream
+-
+list
+-
+string
+-
+
+/home/whoops/compiler/lab2/src/logging/test_ast.cpp
+ast.hpp
+/home/whoops/compiler/lab2/src/logging/ast.hpp
+iostream
+-
+

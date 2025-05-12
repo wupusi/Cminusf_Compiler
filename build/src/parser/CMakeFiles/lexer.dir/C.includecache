@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/whoops/compiler/lab2/src/parser/lexer.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+syntax_analyzer.h
+-
+
+syntax_analyzer.h
+
